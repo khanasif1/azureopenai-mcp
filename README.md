@@ -1,5 +1,5 @@
 # MCP with Azure Open AI
-This solution demonstrates a Multi-Channel Protocol (MCP) implementation using Azure OpenAI, allowing interaction with external services through a chat interface. The system consists of multiple components that work together to process user queries and interact with different services.
+This solution demonstrates a Model context Protocol (MCP) implementation using Azure OpenAI, allowing interaction with external services through a chat interface. The system consists of multiple components that work together to process user queries and interact with different services.
 
 <p align="center">
   <img  src="https://github.com/khanasif1/azureopenai-mcp/blob/main/resources/mcp.gif">
@@ -26,14 +26,14 @@ A sophisticated solution that implements an AI Model Context Protocol (MCP) usin
 - Routes queries to appropriate service endpoints
 - Implements Azure OpenAI best practices for prompt engineering
 
-### 3. MCP Service: Weather (weather_mcp_server.py)
+### 3. MCP Server: Weather (weather_mcp_server.py)
 **Primary Functions:**
 - Handles weather-related natural language queries
 - Implements weather-specific context processing
 - Integrates with external weather APIs
 - Provides formatted weather responses with context retention
 
-### 4. MCP Service: File System (file_mcp_server.py)
+### 4. MCP Server: File System (file_mcp_server.py)
 **Primary Functions:**
 - Manages file system operations through natural language
 - Implements file operation context processing
