@@ -1,0 +1,2 @@
+# azureopenai-mcp
+azureopenai-mcp
