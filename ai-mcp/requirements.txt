@@ -1,0 +1,9 @@
+playwright-mcp
+chainlit
+openai
+langchain
+langchain_community
+beautifulsoup4
+fastapi
+langchain-openai
+dotenv
