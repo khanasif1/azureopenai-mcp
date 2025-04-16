@@ -31,3 +31,7 @@
 ```
     python .\src\file_mcp_server.py 
 ```
+- Run chainlit application
+```
+    chainlit run .\src\chainlit_app.py  
+```
